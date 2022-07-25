@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SignUpForm.exe" version="1.0.0.1" publicKeyToken="45faf24b926d00f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SignUpForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SignUpForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.dll" size="269568">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks" version="12.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9SpbDh0TsZfUzAYy9xwqO8RKYqWm3x7iEW1lR4k90vY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SignUpForm.exe" size="1569280">
+      <assemblyIdentity name="SignUpForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tN00JO5uqUx6d4OM0CFbZDud6eds9MCDVhR0SRd/biI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SignUpForm.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TYNA\tuenuh" issuerKeyHash="fadbc119050b0a7ee4254a6c11bcabb8be8a4f7b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>j8riVg5gMkpCMYSurI80pbJpOvPp1zkN6gAmTyzeP/g=</DigestValue></Reference></SignedInfo><SignatureValue>kNjvKggdR3AJ3WY+bKi2ZbKKo0V3ce+lr1KGJYGeYxiFxY5oyoN10oolVDqjyCpTXAs1C1sr+r9JkNYlpY4azOmKPl2TVBay1z2SHON/i1S6SG1B0wDY57Ucp8a1mEguqBV85KGr8MBSDEdkXjgWz9PyIbJJTtMzB1dgDUTGsWc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sAmImbdqy2n34y/GUZWOKwjeelH216g0orx0vbEIGzg43hcpZo+0aT6zyfAmd0Kq4YpjQ0rSDUEhXKEVpynkOrqR0a+gfkrS3R/MoNpNmmgRyIFYBCUqG2oltt4dCxjdMbjum3QNDeU+Sdai8dSqYRoIeOf4PnH3ruNOYGEtm90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f83fde2c4f2600ea0d39d7e9f33a69b2a5348facae8431424a32600e56e2ca8f" Description="" Url=""><as:assemblyIdentity name="SignUpForm.exe" version="1.0.0.1" publicKeyToken="45faf24b926d00f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TYNA\tuenuh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>T82EONQyf+d2cJlDJDaDkqkdm9oqyzL7pOY97uyecSI=</DigestValue></Reference></SignedInfo><SignatureValue>Z1/66VaT2k/etpekeKrn2YMb3XcMWz78FIk8FSh8mALG1GereWeeWvdQwM8U+FYItd56ps7TDup13Z/1sz8XjdhnGhxFNKyz5tW0iKiOHJn6QEjmZm3uaj8ynf8DovuEliGZZr064NmLRKKUYky1HSuDvepfIyJE6knTMXrdFSo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sAmImbdqy2n34y/GUZWOKwjeelH216g0orx0vbEIGzg43hcpZo+0aT6zyfAmd0Kq4YpjQ0rSDUEhXKEVpynkOrqR0a+gfkrS3R/MoNpNmmgRyIFYBCUqG2oltt4dCxjdMbjum3QNDeU+Sdai8dSqYRoIeOf4PnH3ruNOYGEtm90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQYnjT+cNJL79Go8M9xv9E7DANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAVABZAE4AQQBcAHQAdQBlAG4AdQBoMB4XDTE3MTAyNTAyMDQzM1oXDTE4MTAyNTA4MDQzM1owITEfMB0GA1UEAx4WAFQAWQBOAEEAXAB0AHUAZQBuAHUAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsAmImbdqy2n34y/GUZWOKwjeelH216g0orx0vbEIGzg43hcpZo+0aT6zyfAmd0Kq4YpjQ0rSDUEhXKEVpynkOrqR0a+gfkrS3R/MoNpNmmgRyIFYBCUqG2oltt4dCxjdMbjum3QNDeU+Sdai8dSqYRoIeOf4PnH3ruNOYGEtm90CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBXblvB3gaLS/xh2V0/wt3w8FbJU5qLZO7su5+JwNo/hB72Q5OwOyrJct1XoOtG91Ki7HqW2CO0VtCzSFQdElBjTOxrYerBFxQHUc8j81aK5YjZHMCQP+Ig9dOYe69+SsfFreQ38jfPiOyos56EpT345N0HyGHb2Oa1Oxqp+t7/ew==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
